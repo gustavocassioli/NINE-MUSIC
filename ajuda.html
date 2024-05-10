@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <style>body {
+        background-image: url('Blue.png');
+        background-size: cover; /* Garante que a imagem cubra toda a área visível */
+        background-repeat: no-repeat; /* Evita que a imagem se repita */
+        background-attachment: fixed; /* Faz com que a imagem de fundo não role com a página */
+    }
+    
+
+        body       
+         {
+            font-family: Arial, sans-serif;
+            background-color: #869da1;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+             color: #fff; /* Isso vai mudar a cor */
+        }
+        p {
+    color: #fff; /* Isso vai mudar a cor do texto para azul */
+}
+
+
+
+        .help-center {
+            max-width: 800px; /* Define a largura máxima do elemento */
+            margin: auto;  /* Centraliza o elemento */
+            padding: 20px; /* Adiciona um preenchimento */
+            text-align: center; /* Alinha o texto do elemento ao centro. */
+        }
+
+        input {
+            width: 80%; /* Altere para a largura desejada */
+            padding: 12px; /* Altere para o preenchimento desejado */
+            font-size: 16px; /* Altere para o tamanho de fonte desejado */
+        }
+
+        .help-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 70px;
+        }
+
+        .link {
+            background-color: #0a0562;
+            color: rgb(255, 255, 255);
+            padding: 20px;
+            margin: 10px;
+            text-decoration: none;
+            flex-basis: calc(33% - 20px);
+            box-sizing: border-box;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+
+        .link:hover {
+            background-color: #545956;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="help-center">
+        <input type="text" placeholder="Buscar" />
+        <h1>Como podemos ajudar?</h1>
+        <p>Faça log in para ter ajuda mais rápido</p>
+        <div class="help-links">
+            <a href="Ajuda com pagamentos.html" class="link">Ajuda com pagamentos</a>
+            <a href="Ajuda com a conta.html" class="link">Ajuda com a conta</a>
+            <a href="Ajuda com o plano.html" class="link">Ajuda com o plano</a>
+            <a href="Ajuda com o app.html" class="link">Ajuda com o app</a>
+            <a href="Ajuda com dispositivos.html" class="link">Ajuda com dispositivos</a>
+        </div>
+    </div>
+</body>
+</html>
+
+

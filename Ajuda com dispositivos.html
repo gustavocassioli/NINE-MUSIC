@@ -1,0 +1,87 @@
+l<!DOCTYPE html>
+<html>
+<head>
+    <title>Ajuda com dispositivos</title>
+    <style>
+        body {
+        background-image: url('Blue.png');
+        background-size: cover; /* Garante que a imagem cubra toda a área visível */
+        background-repeat: no-repeat; /* Evita que a imagem se repita */
+        background-attachment: fixed; /* Faz com que a imagem de fundo não role com a página */
+    }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #869da1;
+            text-align: center;
+            color: #fff;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            color: #1DB954;
+            text-align: center;
+            font-size: 2em;
+        }
+
+        p {
+            margin-bottom: 20px;
+            text-align: justify;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: auto;
+            font-size: 1.2em;
+        }
+
+        ul.justified-list, ol.justified-list {
+            list-style-type: disc;
+            padding-left: 20px;
+            text-align: left;
+        }
+
+        .btn {
+            background-color:#31513c;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="help-center">
+        <h1>Ajuda com dispositivos</h1>
+        <p>Esta é a página de ajuda com dispositivos. Aqui você pode encontrar informações sobre como configurar e solucionar problemas com seus dispositivos.</p>
+        <h2>Configurando seu dispositivo</h2>
+        <p>Para configurar seu dispositivo, siga estas etapas:</p>
+        <ol class="justified-list">
+            <li>Acesse sua conta.</li>
+            <li>Vá para a seção de pagamentos.</li>
+            <li>Escolha sua forma de pagamento preferida.</li>
+            <li>Insira os detalhes do pagamento.</li>
+            <li>Clique em 'Pagar'.</li>
+        </ol>
+        <h2>Solucionando problemas do dispositivo</h2>
+        <p>Se você está tendo problemas com seu dispositivo, tente as seguintes soluções:</p>
+        <ul class="justified-list">
+            <li>Verifique se o dispositivo está ligado e conectado à energia.</li>
+            <li>Reinicie o dispositivo.</li>
+            <li>Se o problema persistir, entre em contato com o suporte ao cliente.</li>
+        </ul>
+        <button class="btn" onclick="goBack()">Voltar</button>
+    </div>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>
+

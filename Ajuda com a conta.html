@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ajuda com a conta</title>
+    <style>
+        body {
+        background-image: url('Blue.png');
+        background-size: cover; /* Garante que a imagem cubra toda a área visível */
+        background-repeat: no-repeat; /* Evita que a imagem se repita */
+        background-attachment: fixed; /* Faz com que a imagem de fundo não role com a página */
+    }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #869da1;
+            text-align: center;
+            color: #fff;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            color: #1DB954;
+            text-align: center;
+            font-size: 2em;
+        }
+
+        p {
+            margin-bottom: 20px;
+            text-align: justify;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: auto;
+            font-size: 1.2em;
+        }
+
+        ul.justified-list, ol.justified-list {
+            list-style-type: disc;
+            padding-left: 20px;
+            text-align: left;
+        }
+
+        .btn {
+            background-color:#31513c;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="help-center">
+        <h1>Ajuda com a conta</h1>
+        <p>Esta é a página de ajuda com a conta. Aqui você pode encontrar informações sobre como gerenciar sua conta, resolver problemas de conta e muito mais.</p>
+        <h2>Gerenciando sua conta</h2>
+        <p>Para gerenciar sua conta, siga estas etapas:</p>
+        <ol class="justified-list">
+            <li>Acesse sua conta.</li>
+            <li>Vá para a seção de configurações da conta.</li>
+            <li>Escolha a opção que deseja alterar (por exemplo, senha, detalhes do perfil, etc.).</li>
+            <li>Faça as alterações desejadas.</li>
+            <li>Clique em 'Salvar'.</li>
+        </ol>
+        <h2>Solucionando problemas da conta</h2>
+        <p>Se você está tendo problemas com sua conta, tente as seguintes soluções:</p>
+        <ul class="justified-list">
+            <li>Verifique se você está inserindo as informações corretas de login.</li>
+            <li>Se você esqueceu sua senha, use a opção 'Esqueceu sua senha?' para redefini-la.</li>
+            <li>Se o problema persistir, entre em contato com o suporte ao cliente.</li>
+        </ul>
+        <button class="btn" onclick="goBack()">Voltar</button>
+    </div>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>
